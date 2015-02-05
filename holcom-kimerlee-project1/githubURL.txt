@@ -1,0 +1,11 @@
+GitHub.com URL
+
+http://k-holcom.github.io/dws1/holcom-kimerlee-project1
+
+
+	<figure>
+		<a href="img/faceoff.jpg"><img src="img/faceoff.jpg"/></a>
+		<figcaption>Image of Vancouver Canucks faceoff</figcaption>
+		<a href="img/puck.jpg"><img src="img/puck.jpg"/></a>
+		<figcaption>This is what a hockey puck looks like. NHL pucks, however, do not have a colorful design. They are black with the NHL logo.</figcaption>
+	</figure>
