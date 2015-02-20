@@ -16,6 +16,7 @@ p{
 h1{
 	font-family:'Bevan';
 	text-shadow:1px 1px 3px rgba(51, 51, 51, 0.35);
+	color:#000;
 }
 
 h2{
@@ -62,6 +63,7 @@ h5{
 #subNav{
 	list-style: lower-alpha;
 }
+
 /***********************
 	   	CLASSES
 ***********************/
@@ -101,5 +103,6 @@ a:hover{
 	height: auto;
 	border:2px solid #713a19;
 }
+
 
 
