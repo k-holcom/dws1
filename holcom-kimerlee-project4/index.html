@@ -12,19 +12,19 @@
 	<!-- Start of Container -->
 	<div id="container">
 		<!-- Header -->
-		<div id="header">
+		<header id="header">
 			<h1>Ice Hockey</h1>
-			<div id="mainNav">
+			<nav id="mainNav">
 				<ul>
 					<li class="nav"><a href="#definition">What is Ice Hockey?</a></li>
 					<li class="nav"><a href="#governingBody">Who is in-charge?</a></li>
 					<li class="nav"><a href="#gallery">Gallery</a></li>	
 				</ul>
-			</div>
-		</div>
+			</nav>
+		</header>
 		<!-- End Header -->
 		<!-- Gallery on left side of Page -->
-		<div id="gallery">
+		<aside id="gallery">
 			<h2 >Gallery</h2>
 			<figure>
 				<a class="image" href="images/faceoff.jpg"><img alt="Vancouver Canuck's Faceoff" src="images/faceoff.jpg" /></a>
@@ -38,10 +38,10 @@
 				<a class="image" href="images/pickupGame.jpg"><img alt="pick-up game of hockey" src="images/pickupGame.jpg"/></a>
 				<figcaption>Pick-up Game of Hockey</figcaption>
 			</figure>
-		</div>
+		</aside>
 		<!-- End Gallery -->
 		<!-- Main content area -->
-		<div id="content">
+		<section id="content">
 			<h2 id="definition">What is Ice Hockey exactly?</h2>
 
 			<p>Ice hockey is played on a large flat area of ice, using a three-inch-diameter (76.2 mm) vulcanized rubber disc called a puck. This puck is often frozen before high-level games to decrease the amount of bouncing and friction on the ice. </p>
@@ -59,10 +59,48 @@
 			<p>The <abbr title="National Hockey League">NHL</abbr> rules are slightly different from those used in Olympic ice hockey over many categories.</p>
 
 			<p><a href="#top">Back to Top</a></p>
-		</div>
+		</section>
 		<!-- End Main Content area -->
+		<!-- Starts sign up for updates area and Comments -->
+		<div id="updates">
+			<table>
+				<tr>
+					<th scope="col" colspan="2">To recieve updates please sign up for our mailing list, <br />or fill our our contact form if you have any questions.</th>
+					<tr>
+						<!-- Comments area -->
+						<td id="contactInfo">
+							<span id="contact">Contact</span><br /><br />
+							<form>
+								<label class="labels">Name: </label>
+								<input type="text" name="name" class="textInput" id="namecomm" required="required" placeholder="Name"/><br />
+								<label class="labels">Email: </label>
+								<input type="email" name="email" class="textInput" id="emailcomm" required="required" placeholder="Email" /><br />
+								<label class="labels">Comments: </label>
+								<textarea id="comments" placeholder="Enter your questions/comments here." required="required"></textarea><br />
+								<input type="submit" name="submit" class="button" value="Sign-Up" />
+							</form>
+						</td>
+						<!-- Sign Up area -->
+						<td>
+							<form>
+								<span id="signUp">Sign-up for Updates</span><br />
+								<label class="labels">Name: </label>
+								<input type="text" name="name" class="textInput" id="name" required="required" placeholder="Name"/><br />
+								<label class="labels">Email: </label>
+								<input type="email" name="email" class="textInput" id="email" required="required" placeholder="Email" /><br />
+								<span id="conSelection">Which conference would you like updates about?</span><br />
+								<input type="radio" name="western" value="Western Conference" /> Western
+								<input type="radio" name="eastern" value="Eastern Conference" /> Eastern
+								<input type="radio" name="both" value="Both" checked="checked"/> Both Confernces <br />
+								<input type="submit" name="submit" class="button" value="Sign-Up" />
+							</form>
+						</td>
+					</tr>
+				
+			</table>
+		</div>
 		<!-- List of Teams -->
-		<div id="teams">
+		<footer id="teams">
 			<div id="westernConf">		
 				<h4 id="western">Western Conference</h4>
 				<div id="pacific">
@@ -119,9 +157,13 @@
 					</ol>
 				</div>	
 			</div>
-		</div>
+		</footer>
 		<!-- End of List of the Teams -->
 	</div>
 	<!-- End of Container -->
+
+	<!-- JavaScript --> 
+	<script>
+	</script>
 </body>
 </html>

@@ -1,0 +1,341 @@
+/***********************
+	  TAG ELEMENTS
+***********************/
+body{
+	background-image: url("../images/simple-checker.gif");
+	background-repeat: repeat;
+	background-position:inherit;
+	line-height: 2em;
+	color:#BFBFBC;
+}
+
+figcaption{
+	font-size: 0.9em;
+}
+
+ol{
+	list-style:none;
+}
+
+header{
+	width:77.3%;
+	margin:1% auto;
+	text-align: center;
+	padding:0.8em;
+}
+
+aside{
+	width:17.3%;
+	float:left;
+	margin:1%;
+	text-align: center;
+}
+
+section{
+	width: 62.7%;
+	float:left;
+	margin:1% .75%;
+	line-height: 1.5em;
+	padding: 0 2em
+}
+
+footer{
+	clear:both;
+	width:99%;
+	margin:1%;
+	font-size:12px;
+}
+
+/***********************
+	   	 FORMS
+***********************/
+form{
+	border:transparent;
+}
+
+/***********************
+	   	HEADERS
+***********************/
+table{
+	margin:auto;
+	width:95%;
+	padding:1%;
+	border:0.2em solid #333;
+	border-radius: 10px;
+	font-size:16px;
+	letter-spacing: normal;
+	background-color: #d6d6d6;
+	color:#333;
+	text-align: center;
+	border-spacing: 2em;
+}
+th{
+	text-align: center;	
+	width:100%;
+	border-bottom:0.1em solid #333;
+	text-transform: uppercase;
+	padding:1%;
+}
+
+td{
+	text-align:center;
+	padding:1%;
+	width:50%;
+}
+
+table:hover{
+	border:0.2em solid #888;
+}
+
+/***********************
+	   	HEADERS
+***********************/
+h1{
+	font-family:'Bevan', 'Rockwell Extra Bold', 'Times New Roman', serif;
+	text-shadow:1px 1px 3px rgba(51, 51, 51, 0.35);
+	text-align: center;
+}
+
+h2{
+	font-family:'Bevan', 'Rockwell Extra Bold', 'Times New Roman', serif;
+	text-shadow:1px 1px 3px rgba(51, 51, 51, 0.35);
+	text-decoration: underline;
+}
+
+h3{
+	font-family:'Bevan', 'Rockwell Extra Bold', 'Times New Roman', serif;
+	text-shadow:1px 1px 3px rgba(51, 51, 51, 0.35);
+}
+
+h4{
+	font-family:'Bevan', 'Rockwell Extra Bold', 'Times New Roman', serif;
+}
+
+h5{
+	font-family:'Bevan', 'Rockwell Extra Bold', 'Times New Roman', serif;
+	font-weight: lighter;
+	text-decoration: underline;
+}
+
+/***********************
+		  ID's
+***********************/
+#container{
+	background:linear-gradient(rgba(100,101,113, 0.85), rgba(59, 61, 79, 0.85));
+	width:80%;
+	margin:1% 10%;
+	overflow: auto;
+}
+
+#content{
+	background-image: url("../images/hockey.png");
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#westernConf{
+	width:47.45%;
+	float:left;
+	margin:1%;
+	text-align: center;
+}
+
+#pacific{
+	width:48%;
+	float: left;
+	margin:1%;
+	text-align:center;
+}
+
+#central{
+	width:48%;
+	float: left;
+	margin:1%;
+	text-align:center;
+}
+#pacific li{
+	text-align: left;
+}
+
+#central li{
+	text-align: left;
+}
+
+#easternConf{
+	width:47.45%;
+	float:left;
+	margin:1%;
+	text-align: center;
+}
+
+#atlantic{
+	width:48%;
+	float: left;
+	margin:1%;
+	text-align:center;
+}
+
+#metro{
+	width:48%;
+	float: left;
+	margin:1%;
+	text-align:center;
+}
+#atlantic li{
+	text-align: left;
+}
+
+#metro li{
+	text-align: left;
+}
+
+/* Form ID's */
+
+#updates{
+	clear:both;
+	width:97.9%;
+	margin:1%;
+}
+
+#contact{
+	vertical-align: middle;
+	padding:10%;
+	font-family:'Bevan', 'Rockwell Extra Bold', 'Times New Roman', serif;
+	font-size: 2em;
+	margin:3%;
+}
+
+#name:hover{
+	border:0.2em solid #333;
+}
+
+#name:focus{
+	border:0.2em solid #222;
+}
+
+#email:hover{
+	border:0.2em solid #333;
+}
+
+#email:focus{
+	border:0.2em solid #222;
+}
+
+#namecomm:hover{
+	border:0.2em solid #333;
+}
+
+#namecomm:focus{
+	border:0.2em solid #222;
+}
+
+#emailcomm:hover{
+	border:0.2em solid #333;
+}
+
+#emailcomm:focus{
+	border:0.2em solid #222;
+}
+
+#comments{
+	width:62%;
+	height:6em;
+}
+
+#comments:hover{
+	border:0.2em solid #333;
+}
+
+#comments:focus{
+	border:0.2em solid #222;
+}
+
+#signUp{
+	font-family:'Bevan', 'Rockwell Extra Bold', 'Times New Roman', serif;
+	margin:1%;
+}
+
+#conSelection{
+	font-family:'Rockwell', 'Times New Roman', serif;
+}
+
+/***********************
+		CLASSES
+***********************/
+
+.nav{
+	display:inline;
+	margin-right:1.25em;
+}
+
+.image{
+	border:.125em solid rgb(59, 61, 79);
+	display:inline-block;
+}
+
+.labels{
+	font-family:'Rockwell Extra Bold', 'Times New Roman', serif;
+	float:left;
+	clear:left;
+	margin:1%;
+	width:33%;
+	text-align: left;
+}
+
+.textInput{
+	width:60%;
+	height:2em;
+	box-shadow: 0.5em 0.5em 1em #555;
+	color:#fff;
+	padding: 1%;
+	font-size: 0.8em;
+	float:left;
+	background-color:rgba(59, 61, 79, 0.85);
+}
+
+.button{
+	width:30%;
+	background: rgba(59, 61, 79, 0.85);
+	color:#fff;
+	box-shadow: 0.5em 0.5em 1em #555;
+	margin:1.5%;
+}
+
+.button:hover{
+	background-color: #555;
+}
+
+.conf{
+	font-family:'Rockwell Extra Bold', 'Times New Roman', serif;
+}
+
+/***********************
+	   	 LINKS
+***********************/
+a:link{
+	color:#BFBFBC;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#BFBFBC;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+
+a:active{
+	color:#fff;
+	text-decoration:underline;
+}
+
+.image:hover{
+	display:inline-block;
+	width:auto;
+	height: auto;
+	border:2px solid #713a19;
+}
