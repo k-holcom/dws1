@@ -241,6 +241,10 @@ h5{
 #comments{
 	width:62%;
 	height:6em;
+	background-color:rgba(59, 61, 79, 0.85);
+	box-shadow: 0.5em 0.5em 1em #555;
+	color:#fff;
+	float:left;
 }
 
 #comments:hover{
@@ -258,6 +262,22 @@ h5{
 
 #conSelection{
 	font-family:'Rockwell', 'Times New Roman', serif;
+	font-size:1em;
+	float:right;
+	text-align: center;
+}
+
+#notes{
+	width:100%;
+}
+
+#teamName{
+	width:30%;
+	box-shadow: 0.5em 0.5em 1em #555;
+	color:#fff;
+	background-color:rgba(59, 61, 79, 0.85);
+	height:1.8em;
+	padding:0.5%;
 }
 
 /***********************
@@ -279,7 +299,7 @@ h5{
 	float:left;
 	clear:left;
 	margin:1%;
-	width:33%;
+	width:34%;
 	text-align: left;
 }
 

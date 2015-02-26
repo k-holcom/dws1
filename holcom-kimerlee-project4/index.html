@@ -6,7 +6,7 @@
 
 	<!-- Links to fonts and to CSS sheets -->
 	<link href="css/main.css" rel="stylesheet" />
-	<link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>	
+	<link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<!-- Start of Container -->
@@ -21,6 +21,7 @@
 					<li class="nav"><a href="#gallery">Gallery</a></li>	
 				</ul>
 			</nav>
+
 		</header>
 		<!-- End Header -->
 		<!-- Gallery on left side of Page -->
@@ -65,18 +66,18 @@
 		<div id="updates">
 			<table>
 				<tr>
-					<th scope="col" colspan="2">To recieve updates please sign up for our mailing list, <br />or fill our our contact form if you have any questions.</th>
+					<th scope="col" colspan="2">To recieve updates please sign up for our mailing list, <br />or fill our our contact form if you have any questions.<br /><small>* indicates required fields</small></th>
 					<tr>
 						<!-- Comments area -->
 						<td id="contactInfo">
 							<span id="contact">Contact</span><br /><br />
 							<form>
-								<label class="labels">Name: </label>
+								<label class="labels required">Name:*</label>
 								<input type="text" name="name" class="textInput" id="namecomm" required="required" placeholder="Name"/><br />
-								<label class="labels">Email: </label>
-								<input type="email" name="email" class="textInput" id="emailcomm" required="required" placeholder="Email" /><br />
-								<label class="labels">Comments: </label>
-								<textarea id="comments" placeholder="Enter your questions/comments here." required="required"></textarea><br />
+								<label class="labels required">Email:*</label>
+								<input type="email" name="email" class="textInput" id="emailcomm" placeholder="Email"/><br />
+								<label class="labels required">Comments:*</label>
+								<textarea id="comments" placeholder="Enter your questions/comments here." required="required" ></textarea><br />
 								<input type="submit" name="submit" class="button" value="Sign-Up" />
 							</form>
 						</td>
@@ -84,10 +85,10 @@
 						<td>
 							<form>
 								<span id="signUp">Sign-up for Updates</span><br />
-								<label class="labels">Name: </label>
+								<label class="labels required">Name:*</label>
 								<input type="text" name="name" class="textInput" id="name" required="required" placeholder="Name"/><br />
-								<label class="labels">Email: </label>
-								<input type="email" name="email" class="textInput" id="email" required="required" placeholder="Email" /><br />
+								<label class="labels required">Email:*</label>
+								<input type="email" name="email" class="textInput" id="email" required="required" placeholder="Email" /><br /><br />
 								<span id="conSelection">Which conference would you like updates about?</span><br />
 								<input type="radio" name="western" value="Western Conference" /> Western
 								<input type="radio" name="eastern" value="Eastern Conference" /> Eastern
@@ -96,7 +97,6 @@
 							</form>
 						</td>
 					</tr>
-				
 			</table>
 		</div>
 		<!-- List of Teams -->
@@ -106,25 +106,25 @@
 				<div id="pacific">
 					<h5><strong>Pacific Division</strong></h5>
 					<ol class="divisions">
-						<li>Anaheim Ducks</li>
-						<li>Arizona Coyotes</li>
-						<li>Calgary Flames</li>
-						<li>Edmonton Oilers</li>
-						<li>Los Angeles Kings</li>
-						<li>San Jose Sharks</li>
-						<li>Vancouver Canucks</li>
+						<li id="ducks">Anaheim Ducks</li>
+						<li id="coyotes">Arizona Coyotes</li>
+						<li id="flames">Calgary Flames</li>
+						<li id="oilers">Edmonton Oilers</li>
+						<li id="kings">Los Angeles Kings</li>
+						<li id="sharks">San Jose Sharks</li>
+						<li id="canucks">Vancouver Canucks</li>
 					</ol>
 				</div>
 				<div id="central">
 					<h5><strong>Central Division</strong></h5>
 					<ol>
-						<li>Chicago Blackhawks</li>
-						<li>Colorado Avalanche</li>
-						<li>Dallas Stars</li>
-						<li>Minnesota Wild</li>
-						<li>Nashville Predators</li>
-						<li>St. Louis Blues</li>
-						<li>Winnipeg Jets</li>
+						<li id="blackhawks">Chicago Blackhawks</li>
+						<li id="avalance">Colorado Avalanche</li>
+						<li id="stars">Dallas Stars</li>
+						<li id="wild">Minnesota Wild</li>
+						<li id="predators">Nashville Predators</li>
+						<li id="blues">St. Louis Blues</li>
+						<li id="jets">Winnipeg Jets</li>
 					</ol>
 				</div>
 			</div>
@@ -133,27 +133,27 @@
 				<div id="atlantic">
 					<h5><strong>Atlantic Division</strong></h5>
 					<ol>
-						<li>Boston Bruins</li>
-						<li>Buffalo Sabres</li>
-						<li>Detroit Red Wings</li>
-						<li>Florida Panthers</li>
-						<li>Montréal Canadiens</li>
-						<li>Ottawa Senators</li>
-						<li>Tampa Bay Lightning</li>
-						<li>Toronto Maple Leafs</li>
+						<li id="bruins">Boston Bruins</li>
+						<li id="sabres">Buffalo Sabres</li>
+						<li id="red">Detroit Red Wings</li>
+						<li id="panthers">Florida Panthers</li>
+						<li id="canadiens">Montréal Canadiens</li>
+						<li id="senators">Ottawa Senators</li>
+						<li id="lightning">Tampa Bay Lightning</li>
+						<li id="leafs">Toronto Maple Leafs</li>
 					</ol>
 				</div>
 				<div id="metro">				
 					<h5><strong>Central Division</strong></h5>
 					<ol>
-						<li>Carolina Hurricanes</li>
-						<li>Columbus Blue Jackets</li>
-						<li>New Jersey Devils</li>
-						<li>New York Islanders</li>
-						<li>New York Rangers</li>
-						<li>Philadelphia Flyers</li>
-						<li>Pittsburgh Penguins</li>
-						<li>Washington Capitals</li>
+						<li id="hurricanes">Carolina Hurricanes</li>
+						<li id="blue">Columbus Blue Jackets</li>
+						<li id="devils">New Jersey Devils</li>
+						<li id="islanders">New York Islanders</li>
+						<li id="rangers">New York Rangers</li>
+						<li id="flyers">Philadelphia Flyers</li>
+						<li id="penguins">Pittsburgh Penguins</li>
+						<li id="capitals">Washington Capitals</li>
 					</ol>
 				</div>	
 			</div>
@@ -163,7 +163,7 @@
 	<!-- End of Container -->
 
 	<!-- JavaScript --> 
-	<script>
-	</script>
+	<script src="js/script.js"></script>
+	
 </body>
 </html>
